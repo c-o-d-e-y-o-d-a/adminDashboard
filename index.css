@@ -1,0 +1,18 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.left_side_menu{
+    background-color: aqua;
+    height: 100vh;
+    width: 20vw;
+    display: grid;
+}
+.left_side_menu>*{
+    text-align: center;
+    font-size:1.3rem ;
+}
+.left_side_menu>*:hover{
+    cursor: pointer;
+}
