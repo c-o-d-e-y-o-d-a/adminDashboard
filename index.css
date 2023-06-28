@@ -9,6 +9,7 @@ body{
     display: flex;
     justify-content: space-between;
     
+    
 }
 
 
@@ -206,6 +207,9 @@ body{
 .main_content>*{
     height: 100%;
 }
+.main_content>*>*{
+    height: 100%;
+}
 .mc_left_side{
     background-color: aquamarine;
     height: 100%;
@@ -214,4 +218,52 @@ body{
 .mc_right_side{
     background-color: aqua;
     height: 100%;
+}
+.content_inside_mc_left_side{
+    display: grid;
+    grid-template-rows: 1.8fr 10fr;
+}
+.your_projects_text{
+    background-color: rgb(255, 255, 255);
+    justify-content: start;
+    padding-bottom: 0;
+    padding-top: 5vh;
+    
+    
+    
+    
+    
+}
+.text{
+    margin-bottom: 0;
+  
+    margin-left: 2vw;
+    align-content: end;
+    
+}
+.content_boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 100%;
+    background-color: bisque;
+    border: 1px solid black;
+    gap: 2vh;
+    justify-content: space-between;
+
+}
+.content_box{
+    background-color: aliceblue;
+    border: 1px dotted green;
+    border-radius: 20px;
+    display: block;
+    overflow: auto;
+    
+
+
+
+}
+.lower_text{
+    display: block;
+    overflow: auto;
 }
