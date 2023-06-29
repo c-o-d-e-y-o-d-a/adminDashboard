@@ -15,12 +15,16 @@ body{
 
 .left_side_menu{
     background-color:rgb(49, 140, 214);
-    height: 100vh;
+    
     width: 25vw;
     display: grid;
     color: #ffffff;
     grid-template-rows: 1.7fr 5fr 3fr;
     gap: 6vh;
+    padding-bottom: 50vh;
+    
+}
+.navigation_links_help{
     
 }
 .left_side_menu>*{
@@ -67,6 +71,7 @@ body{
     height: 20px;
     width: 20px;
     display: inline-block;
+    justify-self: center;
 }
 .search_bar_actual{
     width: 38vw;
@@ -110,6 +115,8 @@ body{
     width: 5vh;
     border-radius: 50%;
     margin-left: 1.1vw;
+    justify-self: center;
+
 
 
 }
@@ -208,7 +215,8 @@ body{
     height: 100%;
 }
 .main_content>*>*{
-    height: 100%;
+    height: 90%;
+    width: 100%;
 }
 .mc_left_side{
     background-color: aquamarine;
@@ -216,12 +224,13 @@ body{
 
 }
 .mc_right_side{
-    background-color: aqua;
+    background-color: rgb(242, 243, 243);
     height: 100%;
-}
-.content_inside_mc_left_side{
     display: grid;
     grid-template-rows: 1.8fr 10fr;
+}
+.content_inside_mc_left_side{
+   
 }
 .your_projects_text{
     background-color: rgb(255, 255, 255);
@@ -252,12 +261,14 @@ body{
     justify-content: space-between;
 
 }
+
 .content_box{
     background-color: aliceblue;
     border: 1px dotted green;
     border-radius: 20px;
     display: block;
     overflow: auto;
+    text-align: center;
     
 
 
@@ -266,4 +277,69 @@ body{
 .lower_text{
     display: block;
     overflow: auto;
+
+}
+
+.mc_rs_lower_content_trending_text{
+    font-size: 1.2rem;
+}
+
+.mc_rs_lower_content{
+    justify-self:  center;
+    
+    height: 30%;
+    width: 90%;
+    display: grid;
+
+}
+.mc_rs_lowerC_stuffBox{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    
+    height: 120%;
+    width: 100%;
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding-top: 6vh;
+    padding-bottom: 4vh;
+    gap: 2vh;
+
+}
+.stuff_inside_mc_rs_lc_sb{
+    margin-left: 2vw;
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    grid-auto-flow: column;
+    gap: 2vh;
+    height: 4vh;
+    
+
+}
+.mc_rs_lower_content_trending_text{
+    margin-top: 4vh;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.logo_br{
+    width: 8vh;
+    height: 8vh;
+    border-radius: 50%;
+}
+.atTheRate{
+    display: block;
+    margin-top: 1vh;
+}
+
+.text_df{
+    display: grid;
+    row-gap: 0;
+    font-size: 0.99rem;
+}
+.text_below{
+    margin-bottom: 1vh;
+}
+.stuffBox{
+   
+   
 }
