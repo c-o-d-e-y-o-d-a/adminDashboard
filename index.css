@@ -315,6 +315,11 @@ body{
     
 
 }
+
+.stuff_inside_mc_rs_lc_sb:hover{
+    cursor: pointer;
+    
+}
 .mc_rs_lower_content_trending_text{
     margin-top: 4vh;
     margin-bottom: 0;
