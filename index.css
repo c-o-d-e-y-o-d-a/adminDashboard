@@ -218,11 +218,7 @@ body{
     height: 90%;
     width: 100%;
 }
-.mc_left_side{
-    background-color: aquamarine;
-    height: 100%;
 
-}
 .mc_right_side{
     background-color: rgb(242, 243, 243);
     height: 100%;
@@ -287,16 +283,20 @@ body{
 .mc_rs_lower_content{
     justify-self:  center;
     
-    height: 30%;
+    height: 18%;
     width: 90%;
     display: grid;
+    margin-top: 0;
+    grid-template-rows: 0.01fr 0.5fr ;
+    background-color: blueviolet;
+    margin-top: 3vh;
 
 }
 .mc_rs_lowerC_stuffBox{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     
-    height: 120%;
+    height: 140%;
     width: 100%;
     border-radius: 10px;
     background-color: aliceblue;
@@ -321,7 +321,7 @@ body{
     
 }
 .mc_rs_lower_content_trending_text{
-    margin-top: 4vh;
+    margin-top: 2vh;
     margin-bottom: 0;
     padding-bottom: 0;
 }
@@ -345,6 +345,10 @@ body{
     margin-bottom: 1vh;
 }
 .stuffBox{
+    background-color: rgb(105, 239, 239);
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 50vh;
    
    
 }
