@@ -19,14 +19,16 @@ body{
     width: 25vw;
     display: grid;
     color: #ffffff;
-    grid-template-rows: 1.7fr 5fr 3fr;
-    gap: 6vh;
+    grid-template-rows: 1.7fr 12fr 7fr;
+    gap: 8vh;
     padding-bottom: 50vh;
+    max-height: 150vh;
     
 }
 .navigation_links_help{
-    
+    background-color: rgb(218, 218, 64);
 }
+
 .left_side_menu>*{
     text-align:start;
     font-size:1.2rem;
@@ -43,6 +45,13 @@ body{
     background-color: rgb(255, 255, 255);
     
     border-bottom: 2px solid rgb(210, 206, 206);
+}
+
+.navigation_links{
+    background-color: rgb(194, 164, 223);
+    display: grid;
+    
+    row-gap: 4vh;
 }
 .upper_header{
     display: grid;
@@ -104,7 +113,7 @@ body{
 }
 .lower_header_left{
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 0.8fr 4fr;
     grid-auto-flow: column;
     background-color: rgb(255, 255, 255);
     justify-content: space-between;
@@ -116,6 +125,7 @@ body{
     border-radius: 50%;
     margin-left: 1.1vw;
     justify-self: center;
+    
 
 
 
@@ -203,27 +213,29 @@ body{
 
 }
 .main_content{
-    background-color: rgb(233, 234, 234);
-    height: 100%;
+    background-color: rgb(134, 198, 236);
+    min-height: 150vh;
     width: 100%;
     display: grid;
     grid-template-columns: 7fr 3.5fr;
     grid-auto-flow: column;
+    padding-bottom: 0;
+    
 
 }
 .main_content>*{
     height: 100%;
 }
 .main_content>*>*{
-    height: 90%;
+    height: 100%;
     width: 100%;
 }
 
 .mc_right_side{
     background-color: rgb(242, 243, 243);
-    height: 100%;
+    
     display: grid;
-    grid-template-rows: 1.8fr 10fr;
+    grid-template-rows: 1fr 1fr;
 }
 .content_inside_mc_left_side{
    
@@ -254,13 +266,13 @@ body{
     background-color: bisque;
     border: 1px solid black;
     gap: 2vh;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
 }
 
 .content_box{
     background-color: aliceblue;
-    border: 1px dotted green;
+    border: 1px dotted rgb(139, 198, 139);
     border-radius: 20px;
     display: block;
     overflow: auto;
@@ -283,18 +295,48 @@ body{
 .mc_rs_lower_content{
     justify-self:  center;
     
-    height: 18%;
+    
     width: 90%;
     display: grid;
     margin-top: 0;
     grid-template-rows: 0.01fr 0.5fr ;
     background-color: blueviolet;
-    margin-top: 3vh;
+    padding-bottom: 0;
+    
 
+}
+.actual_content_of_content_box{
+    word-wrap: break-word;
+}
+
+.mc_rs_upper_content{
+    display: grid;
+    grid-template-rows: 0.1fr 0.5fr;
+    margin-top: 8vh;
+    width: 90%;
+    justify-self: center;
+    padding: 4vh 3vh 4vh 3vh;
+}
+.announcement_text{
+    font-size: 1.2rem;
+    margin-bottom: 2vh;
+}
+.stuffBox{
+
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 3vh 2vh 3vh 2vh;
+    margin-bottom: 0;
+    background-color: rgb(23, 29, 7);
+    border-radius: 10px;
+}
+.testing{
+    background-color: antiquewhite;
 }
 .mc_rs_lowerC_stuffBox{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+    
     
     height: 140%;
     width: 100%;
