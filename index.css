@@ -215,7 +215,7 @@ body{
     min-height: 150vh;
     width: 100%;
     display: grid;
-    grid-template-columns: 7fr 3.5fr;
+    grid-template-columns: 7.5fr 3fr;
     grid-auto-flow: column;
     padding-bottom: 0;
     
@@ -383,7 +383,7 @@ body{
 .stuffBox{
     background-color: rgb(105, 239, 239);
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 0.9fr 0.9fr 0.9fr;
     
    
    
@@ -391,11 +391,18 @@ body{
 .text_in_stuffBox{
     display: grid;
     grid-template-rows: 1fr 4fr;
+    margin-left: 1vw;
+    margin-right: 3vw
 }
 .upper_text_inside{
-    margin-bottom: vh;
-}
+    font-weight: 600;
+    margin-bottom: 1vh;
 
+}
+.lower_text_inside{
+    font-size: 0.8rem;
+    color: #656464;
+}
 .content_box{
     background-color: rgb(144, 200, 248);
     border: 1px dotted rgb(139, 198, 139);
