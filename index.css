@@ -311,31 +311,23 @@ body{
 .stuffBox{
 
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    padding: 3vh 2vh 3vh 2vh;
+    grid-template-rows: 0.8fr 0.8fr 0.8fr;
+    padding: 3vh 2vh 0vh 2vh;
     margin-bottom: 0;
-    background-color: rgb(23, 29, 7);
     border-radius: 10px;
+    border: 1px solid black;
 }
 
-.testing1{
-    background-color: rgb(211, 225, 49);
-}
-.testing2{
-    background-color: rgb(254, 189, 92);
-}
-.testing3{
-    background-color: rgb(169, 235, 235);
-}
+
 .mc_rs_lowerC_stuffBox{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+    border: 1px solid black;
     
     
     height: 140%;
     width: 100%;
     border-radius: 10px;
-    background-color: aliceblue;
     padding-top: 6vh;
     padding-bottom: 4vh;
     gap: 2vh;
@@ -380,14 +372,7 @@ body{
 .text_below{
     margin-bottom: 1vh;
 }
-.stuffBox{
-    background-color: rgb(105, 239, 239);
-    display: grid;
-    grid-template-rows: 0.9fr 0.9fr 0.9fr;
-    
-   
-   
-}
+
 .text_in_stuffBox{
     display: grid;
     grid-template-rows: 1fr 4fr;
@@ -401,11 +386,10 @@ body{
 }
 .lower_text_inside{
     font-size: 0.8rem;
-    color: #656464;
+    
 }
 .content_box{
-    background-color: rgb(144, 200, 248);
-    border: 1px dotted rgb(139, 198, 139);
+    
     border-radius: 20px;
     overflow: hidden;
     
@@ -418,12 +402,12 @@ body{
 }
 
 .side_color{
-    background-color: yellow;
+    
   
     height:10vh;
 }
 .actual_content_of_content_box{
-    background-color: yellowgreen;
+   
 }
 .text_in_stuffBox{
     align-self:center;
@@ -434,7 +418,7 @@ body{
     
 }
 .stuff_inside_stuffBox{
-    padding-top: 4vh;
+    
 }
 .upper_text_inside{
     
